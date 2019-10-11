@@ -1,0 +1,49 @@
+{
+  "name": "diy-react-validation-hook",
+  "version": "0.0.1",
+  "description": "A simple way to implement validation with promise-based form validation",
+  "scripts": {
+    "build": "npx webpack --env.production",
+    "start": "webpack-dev-server --hot --inline",
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "author": "eiof",
+  "license": "MIT",
+  "dependencies": {
+    "@hot-loader/react-dom": "^16.10.2",
+    "@types/bluebird-global": "^3.5.12",
+    "bluebird": "^3.7.0",
+    "casual-browserify": "^1.5.19-2",
+    "immer": "^4.0.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-hot-loader": "^4.12.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.3",
+    "@typescript-eslint/parser": "^2.3.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "fork-ts-checker-webpack-plugin": "^1.5.0",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 88
+  }
+}
