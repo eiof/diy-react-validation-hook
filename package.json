@@ -14,7 +14,7 @@
     "@types/bluebird-global": "^3.5.12",
     "bluebird": "^3.7.0",
     "casual-browserify": "^1.5.19-2",
-    "immer": "^4.0.1",
+    "immer": "^8.0.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-hot-loader": "^4.12.15"
